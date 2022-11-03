@@ -38,9 +38,10 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2018, text: 'Started my journey', },
+  { year: 2019, text: 'Appointed programs coordinator at Nervtek', },
+  { year: 2019, text: 'Started creating data science content LinkedIn on', },
+  { year: 2020, text: 'Became Google Developers Student Clubs Lead', },
+  { year: 2021, text: 'Founded Data Science For BreakFast', },
+  { year: 2022, text: 'Worked with Deloitte', },
 ];

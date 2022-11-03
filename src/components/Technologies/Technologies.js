@@ -9,7 +9,7 @@ const Technologies = () =>  (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range of Technologies from the data science industry from data analytics to machine learning
+      I've worked with a range of technologies in data science industry from data analysis to machine learning. 
     </SectionText>
     <List>
       <ListItem>

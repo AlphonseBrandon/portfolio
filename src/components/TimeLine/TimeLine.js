@@ -46,7 +46,14 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+      Alphonse is a distinguished data scientist with experience in building predictive models, visualizing large and
+      complex data to gather relevant patterns, correlations and trends use in solving advanced business problems.
+      <br /> <br />
+      He is proficient in Machine Learning (supervised and unsupervised learning), predictive modeling, data visualization, feature engineering, feature selection, data mining, python, and SQL. 
+      <br /> <br />
+      Alphonse is equally a good communicator, creative thinker, and passionate about building models that solve problems. 
+      <br /> <br />
+      He is eager to bring expertise to growing organizations in a challenging data science role and to make an impact that matters!
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

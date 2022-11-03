@@ -8,13 +8,13 @@ const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Hello There! <br /> 
-        Welcome to my personal portfolio.
+        Welcome! <br /> 
+        This is my personal portfolio.
       </SectionTitle>
       <SectionText>
-        I am a distinguished data scientist with a track record of building intelligent systems that solve real-world problems. I have a passion for data science and machine learning and I am always looking for opportunities to learn and grow.
+        My name is Alphonse Brandon, I help companies use data to build inteligent systems that solve bussiness problems and improve customer experience.
       </SectionText> 
-      <Button onClick={() => window.location = 'https://google.com'}>Hire Me</Button> 
+      <Button onClick={() => window.location = 'mailto:alphonse.brand@gmail.com'}>Hire Me</Button> 
     </LeftSection>
   </Section>
 );
