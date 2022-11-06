@@ -40,8 +40,7 @@ export const projects = [
 export const TimeLineData = [
   { year: 2018, text: 'Started my journey', },
   { year: 2019, text: 'Appointed programs coordinator at Nervtek', },
-  { year: 2019, text: 'Started creating data science content LinkedIn on', },
-  { year: 2020, text: 'Became Google Developers Student Clubs Lead', },
+  { year: 2020, text: 'Became Google Developers Student Club Lead', },
   { year: 2021, text: 'Founded Data Science For BreakFast', },
   { year: 2022, text: 'Worked with Deloitte', },
 ];
