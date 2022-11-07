@@ -10,3 +10,16 @@ export default function App({ Component, pageProps }) {
   );
 }
  
+// Adding vercel analytics
+
+import { Analytics } from '@vercel/analytics/react';
+
+export function MyApp({ Component, pageProps }) {
+  return (
+    <>
+      <Component {...pageProps} />
+      <Analytics />
+    </>
+  );
+}
+
