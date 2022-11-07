@@ -9,7 +9,7 @@ const Hero = () => (
     <LeftSection>
       <SectionTitle main center>
         Welcome! <br /> 
-        This is my personal portfolio.
+        This is my portfolio.
       </SectionTitle>
       <SectionText>
         My name is Alphonse Brandon, I help companies use data to build inteligent systems that solve bussiness problems and improve customer experience.
