@@ -1,4 +1,5 @@
 import React from 'react'
+import { AnalyticsWrapper } from '../components/Analytics/analytics'
 
 import Footer from '../components/Footer/Footer'
 import Header from '../components/Header/Header'
@@ -10,6 +11,7 @@ export const Layout = ({children}) => {
      <Header/>
      <main>{children}</main> 
      <Footer/>
+     <AnalyticsWrapper />
     </Container>
   )
 }
