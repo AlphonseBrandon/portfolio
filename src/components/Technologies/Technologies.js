@@ -42,6 +42,16 @@ const Technologies = () =>  (
           </ListParagraph>
         </ListContainer>
       </ListItem>
+      <ListItem>
+        <DiDatabase size="3rem" />
+        <ListContainer>
+          <ListTitle>Data Visualization</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            Tableau and Power BI
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
     </List>
     <SectionDivider />
   </Section>
