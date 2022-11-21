@@ -1,15 +1,15 @@
 import Theme from '../styles/theme';
 // Google analytics
-import ReactGA from 'react-ga';
+// import ReactGA from 'react-ga';
 
-const TrackingId = 'UA-249995739-2';
+// const TrackingId = 'UA-249995739-2';
 
 
 export default function App({ Component, pageProps }) {
-  setGA = () => {
-    ReactGA.initialize(TrackingId);
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  };
+  // setGA = () => {
+  //   ReactGA.initialize(TrackingId);
+  //   ReactGA.pageview(window.location.pathname + window.location.search);
+  // };
   
   return (
     <>
