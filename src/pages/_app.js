@@ -3,9 +3,16 @@ import Theme from '../styles/theme';
 import ReactGA from 'react-ga';
 
 const TrackingId = 'G-SM6XKJYGX6';
-ReactGA.initialize(TrackingId);
+
 
 export default function App({ Component, pageProps }) {
+  setGA = () => {
+    ReactGA.initialize(TrackingId);
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  };
+  componentDidMount = () => {
+    this.setGA();
+  }
   return (
     <>
       <Theme>
