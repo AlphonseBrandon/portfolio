@@ -2,20 +2,15 @@ import Theme from '../styles/theme';
 // Google analytics
 import ReactGA from 'react-ga';
 
-// const TrackingId = 'UA-249995739-2';
-
+const TrackingId = 'UA-249995739-2';
+ReactGA.initialize(TrackingId);
+useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+}, []);
 
 
 export default function App({ Component, pageProps }) {
-  // setGA = () => {
-  //   ReactGA.initialize(TrackingId);
-  //   ReactGA.pageview(window.location.pathname + window.location.search);
-  // };
-  //   useEffect(() => {
-  //     ReactGA.initialize(TrackingId);
-  //     ReactGA.pageview(window.location.pathname + window.location.search);
-  // }, []);
-  
+
   return (
     <>
       <Theme>
