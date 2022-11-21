@@ -4,12 +4,13 @@ import ReactGA from 'react-ga';
 
 const TrackingId = 'UA-249995739-2';
 ReactGA.initialize(TrackingId);
-useEffect(() => {
-    ReactGA.pageview(window.location.pathname + window.location.search);
-}, []);
+
 
 
 export default function App({ Component, pageProps }) {
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
 
   return (
     <>
