@@ -2,7 +2,7 @@ import Theme from '../styles/theme';
 // Google analytics
 import ReactGA from 'react-ga';
 
-const TrackingId = 'G-SM6XKJYGX6';
+const TrackingId = 'UA-249995739-2';
 
 
 export default function App({ Component, pageProps }) {
