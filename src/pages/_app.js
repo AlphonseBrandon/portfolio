@@ -1,4 +1,9 @@
 import Theme from '../styles/theme';
+// Google analytics
+import ReactGA from 'react-ga';
+
+const TrackingId = 'G-SM6XKJYGX6';
+ReactGA.initialize(TrackingId);
 
 export default function App({ Component, pageProps }) {
   return (
