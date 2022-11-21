@@ -10,9 +10,7 @@ export default function App({ Component, pageProps }) {
     ReactGA.initialize(TrackingId);
     ReactGA.pageview(window.location.pathname + window.location.search);
   };
-  componentDidMount = () => {
-    this.setGA();
-  }
+  
   return (
     <>
       <Theme>
