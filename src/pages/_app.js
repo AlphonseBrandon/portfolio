@@ -1,16 +1,16 @@
 import Theme from '../styles/theme';
-// Google analytics
-// import ReactGA from 'react-ga';
-
-// const TrackingId = 'UA-249995739-2';
-// ReactGA.initialize(TrackingId);
+import * as gtag from '../../lib/gtag'
 
 
 
 export default function App({ Component, pageProps }) {
-  // useEffect(() => {
-  //   ReactGA.pageview(window.location.pathname + window.location.search);
-  // }, []);
+  
+  useEffect(() => {
+    const handleRouteChange = (url) => {
+      gtag.pageview(url)
+    }
+    
+  }, [])
 
   return (
     <>
@@ -24,6 +24,7 @@ export default function App({ Component, pageProps }) {
 // Adding vercel analytics
 
 import { Analytics } from '@vercel/analytics/react';
+import { useEffect } from 'react';
 
 export function MyApp({ Component, pageProps }) {
   return (
